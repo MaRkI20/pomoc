@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Alegreya;
+}
+  
+header {
+    text-align: center;
+    padding: 20px;
+}
+  
+h1 {
+    font-size: 11vw;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.main-title {
+    display: block;
+    color: white;
+}
+  
+.sub-title {
+    display: block;
+    color: #dddddd;
+}
+  
+main {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.mainindex {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+button {
+    font-size: 8vw;
+    padding: 45px 80px;
+    margin: 15px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.home-icon {
+    height: 70px;
+    margin-right: 50px;
+}
+  
+.home-link {
+    display: flex;
+    align-items: center;
+} 
+
+.uceniheader {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.ucenih1 {
+    display: block;
+}
+
+.tetsh1 {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+
+aside {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 12px 0px 0px 12px;
+    margin-top: 40px;
+    width: 150px;
+    position: fixed;
+    top: 130px;
+    right: 0px;
+    grid-column: 1;
+    grid-row: 2;
+    text-decoration: none;
+}
+
+aside li {font-size: 20px;
+    list-style-type:disc;
+    color: white;
+    margin: 3px;
+    margin-left: 2px;
+}
+h3.aside {text-align: center;
+    margin-left: 10px;
+}
+
+a:link {
+    color:white ;
+}
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
+
+h2 {
+    font-size: 8vw;
+    text-align: left;
+    padding-left: 30px;
+}
+
+h4 {
+    font-size: 5vw;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.uceniimg {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+.ucenipar {
+    font-size: 5vw;
+    text-align: left;
+    margin-left: 20px;
+
+}

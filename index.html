@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href ="style.css" rel ="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src = "main.js"></script>
+</head>
+
+<body>
+        <h1 class="testh1">Test</h1>
+    </header>
+
+
+<form id = "quiz" name = "quiz">
+
+<p>najdi x</p>
+<p class="questions">(1) x + 2 = 4</p>
+<input id="textbox" type="text" name="question1">
+<p class="questions">(2) x-1 = 5</p>
+<input id="textbox" type="text" name="question2">
+<p class="questions">(3) x*5 = 15</p>
+<input id="textbox" type="text" name="question3">
+
+
+<input class="kontrola" id = "button" type = "button" value = "Zkontrolovat" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</html>
+
+</body>
